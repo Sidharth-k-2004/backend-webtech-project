@@ -1,0 +1,51 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style the container to center content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Style the FAQ section */
+#faq {
+  padding: 40px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h3 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}

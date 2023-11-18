@@ -1,0 +1,49 @@
+/* styles.css */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center; /* Center the content */
+  }
+  
+  h1 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Georgia', serif;
+    font-size: 14px; /* Set the font size to 14px (adjust to your preference) */
+  }
+  
+  input[type="text"] { /* Target text input specifically */
+    width: 100%; /* Make the text input full-width */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+  }
+  
+  input[type="submit"] {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; /* Make the button smaller */
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Georgia', serif;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #666;
+  }
+  
